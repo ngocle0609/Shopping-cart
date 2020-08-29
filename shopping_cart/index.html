@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="scss/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- ---------------section top bar------------ -->
+        <section class="top-header">
+            <div class="container">
+                <div class="top-bar">
+                    <ul class="top-bar-menu">
+                        <li><i class="fa fa-phone"></i><span>088.888.888 - 099.999.999</span></li>
+                        <li><i class="fab fa-facebook"></i>30shine fanpage</li>
+                    </ul>
+                    <ul class="top-bar-menu">
+                        <li>Hệ thống cửa hàng</li>
+                        <li>Liên hệ</li>
+                        <li>Đăng nhập</li>
+                        <li>Đăng ký</li>
+                        <li><a href="#"><i class="fa fa-search"></i></a></li>
+                        <li><a href="#" id="giohang"><i class="fa fa-shopping-bag cart-bag"></i><span
+                                    id="count-cart">0</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- ---------------section top bar------------ -->
+
+        <!-- -----------section  header---------------- -->
+        <header class="header">
+            <div class="container">
+                <div class="header-main">
+                    <div class="header-logo">
+                        <a href="index.html">
+                            <img src="images/logo.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="header-menu">
+                        <ul>
+                            <li><a href="">TẠO KIỂU TÓC<i class="fa fa-angle-down"></i></a></li>
+                            <li><a href="">QUẦN LÓT VÀ VỚ<i class="fa fa-angle-down"></i></a></li>
+                            <li><a href="">CHĂM SÓC TÓC<i class="fa fa-angle-down"></i></a></li>
+                            <li><a href="">CHĂM SÓC DA<i class="fa fa-angle-down"></i></a></li>
+                            <li><a href="">CHĂM SÓC CƠ THỂ<i class="fa fa-angle-down"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- -----------section  header---------------- -->
+
+        <!-- -----------section  banner---------------- -->
+        <section class="banner">
+            <div class="containerfluid">
+                <div class="banner-images">
+                    <img src="images/breadcrumb_bg.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- -----------section  banner---------------- -->
+
+        <!-- -----------section  home  ---------------- -->
+        <div id="showwww">
+            <section class="main">
+                <div class="container">
+                    <h3>Trang chủ/chăm sóc da</h3>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header card-custom">
+                                    <h1>Danh Mục Sản Phẩm</h1>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">SÁP</li>
+                                        <li class="list-group-item">GÔM</li>
+                                        <li class="list-group-item">XỊT TẠO PHỒNG</li>
+                                        <li class="list-group-item">MÁY SẤY</li>
+                                        <li class="list-group-item">XỊT MÀU TÓC</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- ------ -->
+                            <div class="card mt-4">
+                                <div class="card-header card-custom ">
+                                    <h1>Khoảng Gía</h1>
+                                </div>
+                                <div class="card-body">
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input type="checkbox" class="form-check-input input-custom" value="">Tất cả
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input type="checkbox" class="form-check-input input-custom" value="">Nhỏ
+                                            hơn
+                                            100,000₫
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input type="checkbox" class="form-check-input input-custom" value="">Từ
+                                            100,000₫ - 200,000₫
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input type="checkbox" class="form-check-input input-custom" value="">Từ
+                                            200,000₫ - 300,000₫
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input type="checkbox" class="form-check-input input-custom" value="">Từ
+                                            300,000₫ - 500,000₫
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input type="checkbox" class="form-check-input input-custom" value="">Từ
+                                            500,000₫ - 600,000₫
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input type="checkbox" class="form-check-input input-custom" value="">Lớn
+                                            hơn
+                                            600,000₫
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="main-collection">
+                                <h1 class="main-title">Tạo Kiểu Tóc</h1>
+                                <div class="main-fillter">
+                                    <select name="sortBy" id="sortList">
+                                        <option value="option">Tùy Chọn</option>
+                                        <option value="asc">Theo bảng chữ cái A-Z</option>
+                                        <option value="des">Theo bảng chữ cái Z-A</option>
+                                        <option value=price-asc>Gía từ thấp đến cao</option>
+                                        <option value="price-des">Gía từ cao đến thấp</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- list item -->
+                            <div class="collection-list" id="shop-cart">
+                                <!-- <div class="collection-item">
+                                            <div class="collecton__item--img">
+                                                <img src="images/reuzel.jpg" alt="">
+                                            </div>
+                                            <div class="collection__item--title">
+                                                <a href="#">Ưu đãi đến từ TiGi</a>
+                                            </div>
+                                            <div class="collection__item--price">
+                                                <div class="item-price">599,000₫</div>
+                                                <div class="item-price-sale">777,000₫</div>
+                                            </div>
+                                            <a href="javascript:void()" class="overlay-cart" onclick="addcart()">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </div> -->
+
+                                <!-- <div class="collection-item">
+                                            <div class="collecton__item--img">
+                                                <img src="images/reuzel_blue.jpg" alt="">
+                                            </div>
+                                            <div class="collection__item--title">
+                                                <a href="#">Reuzel Clay matter</a>
+                                            </div>
+                                            <div class="collection__item--price">
+                                                <div class="item-price">320,000₫</div>
+                                                <div class="item-price-sale">500,000₫</div>
+                                            </div>
+                                            <a href="#" class="overlay-cart">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </div>
+            
+                                        <div class="collection-item">
+                                            <div class="collecton__item--img">
+                                                <img src="images/reuzel_blue_2.jpg" alt="">
+                                            </div>
+                                            <div class="collection__item--title">
+                                                <a href="#">Reuzel Fiber matter</a>
+                                            </div>
+                                            <div class="collection__item--price">
+                                                <div class="item-price">199,000₫</div>
+                                                <div class="item-price-sale">320,000₫</div>
+                                            </div>
+                                            <a href="#" class="overlay-cart">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </div>
+            
+                                        <div class="collection-item">
+                                            <div class="collecton__item--img">
+                                                <img src="images/reuzel_pink.jpg" alt="">
+                                            </div>
+                                            <div class="collection__item--title">
+                                                <a href="#">Pink pomark</a>
+                                            </div>
+                                            <div class="collection__item--price">
+                                                <div class="item-price">379,000₫</div>
+                                                <div class="item-price-sale">440,000₫</div>
+                                            </div>
+                                            <a href="#" class="overlay-cart">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </div>
+            
+                                        <div class="collection-item">
+                                            <div class="collecton__item--img">
+                                                <img src="images/serum_reuzel.jpg" alt="">
+                                            </div>
+                                            <div class="collection__item--title">
+                                                <a href="#">Reusel Prays</a>
+                                            </div>
+                                            <div class="collection__item--price">
+                                                <div class="item-price">199,000₫</div>
+                                                <div class="item-price-sale">277,000₫</div>
+                                            </div>
+                                            <a href="#" class="overlay-cart">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </div>
+            
+                                        <div class="collection-item">
+                                            <div class="collecton__item--img">
+                                                <img src="images/style_color.jpg" alt="">
+                                            </div>
+                                            <div class="collection__item--title">
+                                                <a href="#">KMS Style color</a>
+                                            </div>
+                                            <div class="collection__item--price">
+                                                <div class="item-price">150,000₫</div>
+                                                <div class="item-price-sale">200,000₫</div>
+                                            </div>
+                                            <a href="#" class="overlay-cart">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </div>
+            
+                                        <div class="collection-item">
+                                            <div class="collecton__item--img">
+                                                <img src="images/style_color_2.jpg" alt="">
+                                            </div>
+                                            <div class="collection__item--title">
+                                                <a href="#">KMS Style color</a>
+                                            </div>
+                                            <div class="collection__item--price">
+                                                <div class="item-price">130,000₫</div>
+                                                <div class="item-price-sale">157,000₫</div>
+                                            </div>
+                                            <a href="#" class="overlay-cart">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </div>
+            
+                                        <div class="collection-item">
+                                            <div class="collecton__item--img">
+                                                <img src="images/teatre.jpg" alt="">
+                                            </div>
+                                            <div class="collection__item--title">
+                                                <a href="#">Tea Tree</a>
+                                            </div>
+                                            <div class="collection__item--price">
+                                                <div class="item-price">699,000₫</div>
+                                                <div class="item-price-sale">800,000₫</div>
+                                            </div>
+                                            <a href="#" class="overlay-cart">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </div>
+            
+                                        <div class="collection-item">
+                                            <div class="collecton__item--img">
+                                                <img src="images/volcanic.jpg" alt="">
+                                            </div>
+                                            <div class="collection__item--title">
+                                                <a href="#">Volcanic Clay</a>
+                                            </div>
+                                            <div class="collection__item--price">
+                                                <div class="item-price">129,000₫</div>
+                                                <div class="item-price-sale">230,000₫</div>
+                                            </div>
+                                            <a href="#" class="overlay-cart">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </div>
+            
+                                        <div class="collection-item">
+                                            <div class="collecton__item--img">
+                                                <img src="images/kevin.jpg" alt="">
+                                            </div>
+                                            <div class="collection__item--title">
+                                                <a href="#">Kevin Murphy</a>
+                                            </div>
+                                            <div class="collection__item--price">
+                                                <div class="item-price">250,000₫</div>
+                                                <div class="item-price-sale">300,000₫</div>
+                                            </div>
+                                            <a href="#" class="overlay-cart">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </div>
+            
+                                        <div class="collection-item">
+                                            <div class="collecton__item--img">
+                                                <img src="images/vilance.jpg" alt="">
+                                            </div>
+                                            <div class="collection__item--title">
+                                                <a href="#">Gold Digger</a>
+                                            </div>
+                                            <div class="collection__item--price">
+                                                <div class="item-price">100,000₫</div>
+                                                <div class="item-price-sale">120,000₫</div>
+                                            </div>
+                                            <a href="#" class="overlay-cart">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </div>
+            
+                                        <div class="collection-item">
+                                            <div class="collecton__item--img">
+                                                <img src="images/xittaophong.jpg" alt="">
+                                            </div>
+                                            <div class="collection__item--title">
+                                                <a href="#">ATS Style</a>
+                                            </div>
+                                            <div class="collection__item--price">
+                                                <div class="item-price">599,000₫</div>
+                                                <div class="item-price-sale">777,000₫</div>
+                                            </div>
+                                            <a href="#" class="overlay-cart">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </div> -->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- -----------section  home  ---------------- -->
+    </div>
+    <script src="js/cart.js"></script>
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+</body>
+
+</html>

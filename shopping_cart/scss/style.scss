@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+.top-header {
+    background: #eeeeee;
+}
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    ul {
+        display: flex;
+        margin: 0;
+    }
+    li {
+        font-size: 16px;
+        color: #616161;
+        padding: 0 15px 0 0px;
+    }
+    &-menu {
+        padding: 10px 0px;
+    }
+}
+
+.header {
+    margin: 10px 0px;
+    &-main {
+        display: flex;
+        justify-content: space-between;
+    }
+    &-menu ul {
+        display: inline-flex;
+        margin-top: 45px;
+    }
+    li {
+        padding: 0px 10px;
+    }
+    a {
+        font-family: OpenSans-Regular;
+        color: #000000;
+        font-weight: 300;
+        font-size: 14px;
+    }
+    .fa {
+        padding: 0px 5px;
+    }
+    &-logo img {
+        width: 60%;
+        object-fit: cover;
+    }
+}
+
+.banner {
+    margin: 20px 0px;
+    &-images img {
+        width: 100%;
+    }
+}
+
+.main {
+    h3 {
+        color: #000;
+        font-size: 15px;
+        margin-bottom: 3rem;
+    }
+    &-collection {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+    &-title {
+        color: #000000;
+        font-size: 20px;
+    }
+    &-fillter {
+        border: 1px solid #222020;
+        border-radius: 25px;
+    }
+}
+
+.main-fillter select {
+    outline: 0px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+    padding: 0px 50px 0px 10px;
+    border: none;
+}
+
+.collection-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    .collection-item {
+        flex: 0 0 25%;
+        margin: 24px 0px;
+        padding: 0 5px;
+    }
+    .collection__item--title,
+    a {
+        text-align: center;
+        color: #000000 !important;
+        font-weight: 600;
+    }
+    .collecton__item--img img {
+        width: 100%;
+        border: 1px solid #ece5e5;
+        margin-bottom: 1rem;
+    }
+    .collection__item--price {
+        display: flex;
+        justify-content: center;
+    }
+    .item-price {
+        padding: 0px 5px;
+        color: #e53935;
+    }
+    .item-price-sale {
+        font-size: 14px;
+        color: #666666;
+        text-decoration: line-through;
+    }
+}
+
+.card-custom {
+    background-color: #000000 !important;
+    h1 {
+        font-size: 17px;
+        color: #ffffff;
+    }
+}
+
+ul.list-group li {
+    font-size: 14px;
+}
+
+.input-custom input {
+    padding: 5px 5px;
+}
+
+// ------------------- css cart ----------------- //
+
+.main-cart {
+    h3 {
+        color: #000;
+        font-size: 15px;
+        margin-bottom: 3rem;
+    }
+}
+
+.cart {
+    h1 {
+        border-bottom: 1px solid #e5e5e5;
+        font-size: 25px;
+        color: #000000;
+        padding: 0 0 15px;
+        margin-bottom: 2rem;
+    }
+    table tr th {
+        text-align: center;
+    }
+    &-images img {
+        width: 120px;
+    }
+    &-product h4 {
+        font-size: 18px;
+        text-align: center;
+        padding-top: 50px;
+    }
+    &-product p {
+        margin: 7px 35px;
+    }
+    &-btn {
+        padding: 2px 15px;
+        margin: 0 35px;
+    }
+    &-price {
+        padding: 64px;
+        text-align: center;
+        font-size: 18px;
+    }
+    &-qty {
+        display: flex;
+        justify-content: center;
+        padding: 64px;
+    }
+    .qty-input {
+        width: 30%;
+        height: 30px;
+        text-align: center;
+    }
+    &-total {
+        padding: 64px;
+        font-size: 18px;
+    }
+    .table {
+        border-bottom: 1px solid #e5e5e5;
+    }
+}
+
+.total {
+    text-align: right;
+    &-price p {
+        font-size: 25px;
+        display: inline-flex;
+    }
+    &-price h3 {
+        padding: 0px 45px;
+        margin: 10px -18px;
+        font-size: 17px;
+    }
+    .total-price {
+        display: inline-flex;
+    }
+    .total-btn-cart {
+        border-radius: 3px;
+        background-color: #000000;
+        color: #fff;
+        padding: 8px 10px;
+    }
+}
+
+.overlay-cart {
+    display: flex;
+    justify-content: center;
+    .fa {
+        font-size: 20px;
+        color: red;
+        padding: 5px;
+    }
+}
